@@ -1,10 +1,10 @@
-CC = g++
+CC = gcc
 CFLAGS = -I./lib
 LDFLAGS = -L./lib -lLabJackM
 
-SRCS = main.cpp
+SRCS = loopRead.cpp
 OBJS = $(SRCS:.cpp=.o)
-EXECUTABLE = MyLabJackApp
+EXECUTABLE = LoopRead
 
 all: $(EXECUTABLE)
 
