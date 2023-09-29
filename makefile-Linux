@@ -1,0 +1,14 @@
+CC = gcc
+CFLAGS = -I./lib
+LDFLAGS = -L./lib -lLabJackM
+
+SRCS = loopRead.cpp
+EXECUTABLE = LoopReadA
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(SRCS)
+	$(CC) $(SRCS) -o $@ $(CFLAGS) $(LDFLAGS)
+
+clean:
+	rm -f $(EXECUTABLE)
