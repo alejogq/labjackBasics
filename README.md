@@ -18,3 +18,10 @@ make
 ## Loop Read:  
 
 loopRead Reads the ports of the LabJack in a loop.  
+
+## For building in linux or windows
+
+Go to Labjack page download and install the drivers: 
+
+https://labjack.com/pages/support?doc=/software-driver/installer-downloads/ljm-software-installers-t4-t7-digit/
+
